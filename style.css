@@ -1,0 +1,72 @@
+body,
+div,
+a {
+  background:url(http://www.edwardbeckett.com/wp-content/uploads/more_code.jpg);
+  padding: 0;
+  margin: 0;
+  font-family: Tw Cen MT;
+}
+
+#calculator {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(42,46,57,0.1)), to(rgba(42,46,57,0.9)));
+  background: -moz-linear-gradient(top, #fff, #ccc);
+  border-radius:5px;
+  width: 310px;
+  height: 460px;
+  margin:20px auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#total {
+  color:white;
+  height: 70px;
+  width: 300px;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 5px;
+  text-align: right;
+  font-size: 60px;
+  padding: 0 5px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,255,255,0.2)), to(rgba(0,255,255,0.5)));
+  background: -moz-linear-gradient(top, rgba(0,255,255,0.2), rgba(0,255,255,0.5));
+  border-radius:5px;
+}
+
+#numbers,
+#operators {
+  margin: auto;
+}
+#operators a {
+  display: block;
+  width: 45px;
+  height: 45px;
+  float: left;
+  text-decoration: none;
+  color: white;
+  box-shadow:0 0 1px 1px #000;
+  text-align: center;
+  font-size: 39px;
+  padding: 2px;
+  margin: 5px 6px;
+ background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.2)), to(rgba(255,255,255,0.3)));
+  background: -moz-linear-gradient(top, rgba(255,255,255,0.2), rgba(255,255,255,0.3));
+  border-radius: 10px;
+}
+
+#numbers a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  float: left;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 32pt;
+  padding: 10px;
+  margin: 5px 15px;
+  box-shadow:0 0 1px 1px #000;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 255, 255,0.2)), to(rgba(0, 255, 255,0.5)));
+  background: -moz-linear-gradient(top, rgb(0, 255, 255, 0.2), rgb(0, 255, 255, 0.5));
+  border-radius: 10px;
+}
