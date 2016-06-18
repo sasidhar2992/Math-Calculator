@@ -18,7 +18,8 @@ a {
   border-radius: 10px;
 }
 
-#total {
+#total 
+{
   color:white;
   height: 70px;
   width: 300px;
