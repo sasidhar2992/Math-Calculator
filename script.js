@@ -1,3 +1,4 @@
+//start of the doc
 $(document).ready(function() {
   var testNumLength = function(number) {
     if (number.length > 9) {
